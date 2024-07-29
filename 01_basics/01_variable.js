@@ -1,7 +1,7 @@
 // const,let,var means store data in memory
 // Const (Constant keyword) - const keyword not change
 const accountId = 144553
-// let (let and var same) // but let use mostly reason below--
+// let (let and var same) // but let use mostly reason below---
 let accountEmail = "krishna@google.com"
 // Var (variable)
 var accountPassword = "12345"

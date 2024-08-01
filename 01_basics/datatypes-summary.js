@@ -52,3 +52,33 @@ console.log(typeof anotherId);
        Function  =>  function
        Object  =>  object
 */
+
+
+// +++++++++++++++++++++++++++++++++++++++++
+
+// Stack Memory (Primitive) , Heap Memory (Non-Primitive)
+
+// Stack - variable ka copy lekar usme change karta hai, Original value not change
+
+let myYoutubename = "krishnakumaryt"
+
+let anothername = myYoutubename
+anothername = "chaiorcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+// Heap - original value ka reference lekar usme change karta haim, Original value change
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "krishna@google.com"
+
+console.log(userOne.upi);
+console.log(userOne.email);
+console.log(userTwo.email);

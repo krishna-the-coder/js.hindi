@@ -36,3 +36,19 @@ console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 // section - 11.4.3 (The typeof Operator)
+
+// typeof
+/*  1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+    2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object
+*/
